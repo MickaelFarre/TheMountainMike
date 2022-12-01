@@ -1,0 +1,156 @@
+.grid-item img {
+  display: block;
+  max-width: 100%;
+}
+
+.grid {
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: masonry;
+}
+
+.content {
+    /* this is needed or the background will be offset by a few pixels at the top */
+  overflow: auto;
+  position: relative;
+}
+
+
+
+#home {
+    background-image: url('/images/bg_header.jpg');
+    height: 1400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+.fa-solid {
+    height: 100px;
+    width: 100px;
+}
+
+#your-logo-sm {
+    height: 70px;
+    width: 200px;
+}
+
+#about {
+    background-image: url(/images/bg_nuage.jpg);
+    background-position: 50%;
+    background-size: cover;
+    height: 450px;
+}
+
+
+#history {
+    background-image: url(/images/bg_appareil_photo.jpg);
+    background-position: 50%;
+    background-size: cover;
+    height: 600px;
+}
+
+.nav-item {
+    height: 80px;
+    border: 0.5px solid grey;
+}
+
+i {
+    font-size: 12px;
+}
+
+#bike {
+    height: 500px;
+    width: 500px;
+}
+
+i {
+    font-size: 4rem;
+}
+
+h1 {
+    font-family:'Times New Roman', Times, serif
+}
+
+.btn-xl {
+    padding: 10px 20px;
+    font-size: 20px;
+    width:150px;  
+    border: none;  
+}
+
+.btn-learn-more {
+    background-color: #86C3E0;
+    color:azure;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.w-30 {
+    width: 30%;
+}
+
+.content-banner {
+    background-color: rgba(67, 206, 222, 0.5);
+}
+
+
+button {
+    font-size: 72px;
+}
+
+.navbar-toggler-icon {
+    font-size: 72px;
+}
+
+.nav-top {
+    display: inline;
+}
+
+footer {
+    background-color: rgb(54, 60, 70);
+}
+
+
+.photo{
+    width: 390px;
+    padding: 0 10px;
+}
+
+.photo img{
+    width: 100%;
+}
+
+.photo--width2{
+    width: 780px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Rokkitt', serif;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(121, 121, 121);
+}
+
+/* Responsive Styling */
+
+@media (max-width: 1199px) {
+
+}
+
+@media (max-width: 991px) {
+
+}
+
+@media (max-width: 767px) {
+    body {
+        background-color: red;
+    }
+}
